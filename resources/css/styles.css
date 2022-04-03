@@ -1,0 +1,138 @@
+/* UNIVERSAL */
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 7.5rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h1,
+h2,
+label {
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.7;
+    color: rgb(118, 118, 118);
+}
+
+label {
+    display: block;
+}
+
+input,
+select {
+    border: .15rem solid black;
+    border-radius: .5rem;
+    height: 2.5rem;
+    font-size: 1.6rem;
+}
+
+input::placeholder {
+    color: rosybrown;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    width: 10rem;
+    height: 4.5rem;
+}
+
+button:hover {
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(95, 95, 95);
+}
+
+button:focus-visible {
+    outline: .3rem solid rosybrown;
+    font-weight: 700;
+}
+
+/* LEFT COLUMN */
+
+.left-col {
+    height: 100vh;
+    width: 50vw;
+}
+
+.left-col__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* RIGHT COLUMN */
+
+.right-col {
+    width: 49%;
+    height: 100vh;
+}
+
+.right-col__container {
+    width: 90.8%; 
+    padding-left: 4rem;
+}
+
+.right-col__heading {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+}
+
+.right-col__text {
+    width: 91%;
+    margin-top: 2rem;
+}
+
+/* About you form */
+
+.about-form__input {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.about-form__input--book-type {
+    height: 2.8rem;
+    width: 101.1%;
+    
+}
+
+.about-form__name-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-form__name-input {
+    width: 47.6%;
+}
+
+
+
+

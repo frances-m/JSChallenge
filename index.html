@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
+        <title>JS Challege | Frances McKenzie</title>
+    </head>
+    <body>
+        <div class="left-col">
+            <img class="left-col__img" src="resources/assets/books.jpg" alt="" />
+        </div>
+        <main class="right-col">
+            <div class="right-col__container">
+                <h1 class="right-col__heading">It's going down for real.</h1>
+                <p class="right-col__text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet
+                    magni ab eos consectetur sunt, eius consequatur vitae dignissimos reiciendis
+                    repellat, cupiditate qui necessitatibus voluptatibus minus dolorum modi et?
+                    Nihil!
+                </p>
+                <form class="about-form" target="_self">
+                    <h2 class="about-form__heading">About you</h2>
+
+                    <div class="about-form__name-inputs">
+                        <div class="about-form__name-input">
+                            <label class="about-form__label" for="first-name">First Name</label>
+                            <input class="about-form__input about-form__input--name" name="first-name" type="text" placeholder="Jane" />
+                        </div>
+                        <div class="about-form__name-input">
+                            <label class="about-form__label" for="last-name">Last Name</label>
+                            <input class="about-form__input about-form__input--name" name="last-name" type="text" placeholder="Doe" />
+                        </div>
+                    </div>
+
+                    <label class="about-form__label" for="book-type">Type of Book Choice</label>
+                    <select class="about-form__input about-form__input--book-type" name="book-type">
+                        <option value="hardcover">Hardcover</option>
+                        <option value="paperback">Paperback</option>
+                        <option value="audiobook">Audiobook</option>
+                    </select>
+
+                    <label class="about-form__label" for="phone">Phone Number</label>
+                    <input class="about-form__input" name="phone" type="tel" placeholder="555-555-5555" maxlength="10" />
+
+                    <button class="about-form__submit" type="submit">Send</button>
+                </form>
+
+            </div>
+        </main>
+    </body>
+</html>
